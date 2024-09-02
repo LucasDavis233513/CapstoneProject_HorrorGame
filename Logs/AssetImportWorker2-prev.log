@@ -1,0 +1,1768 @@
+Unity Editor version:    2022.3.44f1 (c3ae09b9f03c)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #1 SMP PREEMPT_DYNAMIC Mon Aug 19 14:09:30 UTC 2024
+Kernel version:          6.10.6-200.fc40.x86_64
+Architecture:            x86_64
+Available memory:        32001 MB
+Using pre-set license
+Pro License: YES
+
+(Unity:9088): Gtk-CRITICAL **: 08:19:31.663: gtk_window_set_default_icon: assertion 'GDK_IS_PIXBUF (icon)' failed
+
+(Unity:9088): GLib-GObject-CRITICAL **: 08:19:31.663: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Desktop is 4920 x 1920 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/home/ldavis/Game Projects/Unity Games/2.5D_Test/2.5D_Test
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+33593
+Successfully changed project path to: /home/ldavis/Game Projects/Unity Games/2.5D_Test/2.5D_Test
+/home/ldavis/Game Projects/Unity Games/2.5D_Test/2.5D_Test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140086476506112]  Target information:
+
+Player connection [140086476506112]  * "[IP] 10.10.1.10 [Port] 0 [Flags] 2 [Guid] 2342340907 [EditorId] 2342340907 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.29) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [140086476506112]  * "[IP] 192.168.1.29 [Port] 0 [Flags] 2 [Guid] 2342340907 [EditorId] 2342340907 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.29) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [140086476506112] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140086476506112] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Unable to load player prefs
+Refreshing native plugins compatible for Editor in 1.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.44f1 (c3ae09b9f03c)
+[Subsystems] Discovering subsystems at path /home/ldavis/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/ldavis/Game Projects/Unity Games/2.5D_Test/2.5D_Test/Assets
+GLX Extensions: GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_visual_info GLX_EXT_visual_rating GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_swap_control GLX_EXT_swap_control GLX_ARB_create_context GLX_ARB_create_context_profile GLX_ARB_fbconfig_float GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_NV_copy_image GLX_NV_copy_buffer GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_ARB_context_flush_control 
+Renderer: NVIDIA GeForce RTX 3060/PCIe/SSE2
+Vendor:   NVIDIA Corporation
+Version:  4.5.0 NVIDIA 560.35.03
+GLES:     0
+ GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragmen
+t_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoki
+ng_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_A
+RB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_t
+ranspose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters 
+GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod G
+L_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_NV_memory_object_sparse GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_NV_timeline_semaphore GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_
+blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap GL_NV_conservative_raster_pre_snap_triangles GL_NV_conservative_raster_underestimation GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_barycentric GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_sha
+der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_program_multiview GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_primitive_shading_rate GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_obje
+ct GL_NV_shader_subgroup_partitioned GL_NV_shader_texture_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_dirty_tile_map GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_b
+lend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -546961848
+Initialize mono
+Mono path[0] = '/home/ldavis/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Managed'
+Mono path[1] = '/home/ldavis/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/ldavis/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/ldavis/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/ldavis/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.005058 seconds.
+- Loaded All Assemblies, in  0.248 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.218 seconds
+Domain Reload Profiling: 466ms
+	BeginReloadAssembly (53ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (113ms)
+		LoadAssemblies (52ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (112ms)
+			TypeCache.Refresh (111ms)
+				TypeCache.ScanAssembly (100ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (218ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (178ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.401 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.438 seconds
+Domain Reload Profiling: 840ms
+	BeginReloadAssembly (85ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (251ms)
+		LoadAssemblies (153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (111ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (439ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (320ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (45.4 KB). Loaded Objects now: 3571.
+Memory consumption went from 123.4 MB to 123.3 MB.
+Total: 3.170686 ms (FindLiveObjects: 0.193506 ms CreateObjectMapping: 0.157218 ms MarkObjects: 2.687705 ms  DeleteObjects: 0.131428 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1431.062422 seconds.
+  path: Assets/Sprits/craftpix-net-865357-free-pixel-citizens-for-top-down-tower-defense/1/Materials
+  artifactKey: Guid(0bd790ccbbd106530ab341efac348d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-865357-free-pixel-citizens-for-top-down-tower-defense/1/Materials using Guid(0bd790ccbbd106530ab341efac348d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '31e6345353d26c1a0f5dfb366056ef6a') in 0.004215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 100.891228 seconds.
+  path: Assets/Sprits/craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art
+  artifactKey: Guid(91aa9d224c07b2408819cd100719bf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art using Guid(91aa9d224c07b2408819cd100719bf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '92a28b3df142ab6895fc00b59efeb133') in 0.000353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.303802 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art
+  artifactKey: Guid(91aa9d224c07b2408819cd100719bf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art using Guid(91aa9d224c07b2408819cd100719bf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '018e369f2fa5b67dd02f61ca6e27c099') in 0.000240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.221005 seconds.
+  path: Assets/Sprits/pixel-citizens-for-top-down-tower-defense
+  artifactKey: Guid(e8324c5e1d2f220018932b6bc748cdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/pixel-citizens-for-top-down-tower-defense using Guid(e8324c5e1d2f220018932b6bc748cdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '193c4bfdf8bb175c6990e672852c8b6f') in 0.000231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.710923 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/COUPON.png
+  artifactKey: Guid(d12ff29994f5b4144b3ed70fc8202ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/COUPON.png using Guid(d12ff29994f5b4144b3ed70fc8202ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6452d69acf4ba339abb4e845e6438fc4') in 0.053228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.910312 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG
+  artifactKey: Guid(bfa28238d6e7e3c3d811915593911f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG using Guid(bfa28238d6e7e3c3d811915593911f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c7f2ed49110d4c4521f29bf959c0ebee') in 0.000422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.026016 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Rocks_source.png
+  artifactKey: Guid(4a2eaa450702c8f9bb6d305bcf86e523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Rocks_source.png using Guid(4a2eaa450702c8f9bb6d305bcf86e523) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f8474e7fb7a7373085951b9e7c2d6cc6') in 0.005507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Rocks_source_texture_shadow_dark.png
+  artifactKey: Guid(ed2465c08b908c52b85b8043e79873c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Rocks_source_texture_shadow_dark.png using Guid(ed2465c08b908c52b85b8043e79873c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8b1722ce58f8e0b6c154113237e26889') in 0.005554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 21.523891 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately
+  artifactKey: Guid(e249c42cc175e4d018eb240912542f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately using Guid(e249c42cc175e4d018eb240912542f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fcd33eccdeeb0e86eb1ceea85b9e9055') in 0.000252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.692485 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_1.png
+  artifactKey: Guid(5ff49beb9891031c8930104443d905ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_1.png using Guid(5ff49beb9891031c8930104443d905ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4a759acf566bf5885a90a649fb304af4') in 0.006761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013740 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_3.png
+  artifactKey: Guid(3736ce8cf81cd74b2b304c411b0e9090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_3.png using Guid(3736ce8cf81cd74b2b304c411b0e9090) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bbfb624e3c0a4b4c7df1bc06e406b498') in 0.003539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.014268 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_5.png
+  artifactKey: Guid(21388a2ea043ac3108245710996ff502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_5.png using Guid(21388a2ea043ac3108245710996ff502) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '12fb3b66b6e97b8b874e55a688280547') in 0.004080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow2.png
+  artifactKey: Guid(3147322017b42a2bf908a13d71eb4d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow2.png using Guid(3147322017b42a2bf908a13d71eb4d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a0514516ec6629b01d6beb4c5edb487b') in 0.004210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow5.png
+  artifactKey: Guid(801fae0a0ab41ef49bdfbf7485d522fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow5.png using Guid(801fae0a0ab41ef49bdfbf7485d522fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b139f37af586150fedc2785c9d540c7e') in 0.002783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_3_no_shadow.png
+  artifactKey: Guid(c0bdff36fc436c2779fd9190eb6d2667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_3_no_shadow.png using Guid(c0bdff36fc436c2779fd9190eb6d2667) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '853fdf292d10ffb35d5aeefdd08a9457') in 0.002791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow4.png
+  artifactKey: Guid(7d5e16775ba4c15a0b4d39a1d009a3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow4.png using Guid(7d5e16775ba4c15a0b4d39a1d009a3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c7e65001bdc4326f0e7fad180dfcae87') in 0.002709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow_dark3.png
+  artifactKey: Guid(c8f9246e5e90d73feb70e417dee10d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow_dark3.png using Guid(c8f9246e5e90d73feb70e417dee10d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5d5af0bf0d44f73eea752cebe0bab6a2') in 0.002670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock3_2_no_shadow.png
+  artifactKey: Guid(e92d586c5ea976d85b52a3676b4b5914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock3_2_no_shadow.png using Guid(e92d586c5ea976d85b52a3676b4b5914) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5ba92656b8b14d0fe36036d76692372b') in 0.002805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow_dark3.png
+  artifactKey: Guid(19e463f9b3c9b85378ee932d87cec103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow_dark3.png using Guid(19e463f9b3c9b85378ee932d87cec103) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '198102fda378b6dd8df4c3c868b83117') in 0.003123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_5_no_shadow.png
+  artifactKey: Guid(302b000b6eca6f0eb952312727ed0f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_5_no_shadow.png using Guid(302b000b6eca6f0eb952312727ed0f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7543cec0e984082710f3c935239291f4') in 0.003357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow_dark1.png
+  artifactKey: Guid(50997b848f76e4d0d9742c590e007a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow_dark1.png using Guid(50997b848f76e4d0d9742c590e007a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a8e6b19f81a3d4b642907dafcf4b7a8e') in 0.004647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_3.png
+  artifactKey: Guid(67a7d1628fc384cdf957b0835e37d124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_3.png using Guid(67a7d1628fc384cdf957b0835e37d124) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '282a616d565da1fc5e2250a52bee45b6') in 0.003333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_grass_shadow4.png
+  artifactKey: Guid(c9df7c460a22ced5bbf3a8ef46224949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_grass_shadow4.png using Guid(c9df7c460a22ced5bbf3a8ef46224949) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5cbb6bf5c68d274d9e88c2a958234de6') in 0.003128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_grass_shadow_dark3.png
+  artifactKey: Guid(0665783f457f46317abfe8d1b16c7d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_grass_shadow_dark3.png using Guid(0665783f457f46317abfe8d1b16c7d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9e15b46a89e2988bc5bd0c32323bc880') in 0.004439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_1_no_shadow.png
+  artifactKey: Guid(9fc8c58e66e0dad87acf2ba568957eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_1_no_shadow.png using Guid(9fc8c58e66e0dad87acf2ba568957eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e955a8a2f51e24bfb5aaf85c270e9ee7') in 0.005625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_2_no_shadow.png
+  artifactKey: Guid(f179f76a0ade2cdeb9d2bcdb69dd08c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_2_no_shadow.png using Guid(f179f76a0ade2cdeb9d2bcdb69dd08c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '24e70975a9c5d5aa78190023b0cf74dd') in 0.004708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_5_no_shadow.png
+  artifactKey: Guid(ebff9aef4c2017d5dbfa570c159d4a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_5_no_shadow.png using Guid(ebff9aef4c2017d5dbfa570c159d4a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '33f0d06930829b88c6bb71d90c9d0acb') in 0.005065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow_dark4.png
+  artifactKey: Guid(c2e637d1df3407472a0d629629e8e8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow_dark4.png using Guid(c2e637d1df3407472a0d629629e8e8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2656531df65b12eb6d5a576b4bc81955') in 0.003975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_5_no_shadow.png
+  artifactKey: Guid(3915946843f4164cab47baf682caf90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_5_no_shadow.png using Guid(3915946843f4164cab47baf682caf90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a9b06edc7544ad6226e95f0a0c07f0a4') in 0.005987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow4.png
+  artifactKey: Guid(e5446431ff2b372788dea7fd7d13fa18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow4.png using Guid(e5446431ff2b372788dea7fd7d13fa18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e88975f65f80a7db5fc738e52885eb24') in 0.004484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock3_5.png
+  artifactKey: Guid(c94503797f7d18153bd0675d9bfcecd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock3_5.png using Guid(c94503797f7d18153bd0675d9bfcecd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5a55d75666df4ce29c1fd8899d4d6bb0') in 0.006191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock3_5_no_shadow.png
+  artifactKey: Guid(826ef4859bcbe270ab230526e8a88d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock3_5_no_shadow.png using Guid(826ef4859bcbe270ab230526e8a88d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c0095bf281d1d0018bcbc8777d195640') in 0.004539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_grass_shadow2.png
+  artifactKey: Guid(1eac0278e31a5b866bddc00c711a6d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_grass_shadow2.png using Guid(1eac0278e31a5b866bddc00c711a6d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b9b82b51fcfd4b6ffa7aeb97ce5d8bf0') in 0.007108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow3.png
+  artifactKey: Guid(bfa080bb08e0bda0c9a56ed866975cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow3.png using Guid(bfa080bb08e0bda0c9a56ed866975cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3fed3ca5fedff8566f7fe1adc118f32f') in 0.006693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_1_no_shadow.png
+  artifactKey: Guid(55565360c6dcf8dc5a487f4e70654dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_1_no_shadow.png using Guid(55565360c6dcf8dc5a487f4e70654dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3577415f51eb73c49093cd5d4943b6c2') in 0.005561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_4.png
+  artifactKey: Guid(4049d54a7a69de7d1b8a996c5cccd802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_4.png using Guid(4049d54a7a69de7d1b8a996c5cccd802) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e3221d940219b4c6d23401f3809b0a85') in 0.005622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow_dark5.png
+  artifactKey: Guid(8f2079ff3d2f67b3a855c3a6ddf70be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow_dark5.png using Guid(8f2079ff3d2f67b3a855c3a6ddf70be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9524531cdd7098bb9f756fa42a547e7a') in 0.007691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_grass_shadow_dark2.png
+  artifactKey: Guid(e852281c8fc74e3c5b245f4a4c9a9f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_grass_shadow_dark2.png using Guid(e852281c8fc74e3c5b245f4a4c9a9f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ece9dbbefac187a1d9848060ec7ca9aa') in 0.004639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow1.png
+  artifactKey: Guid(5cce5d5f50ff110a1af23cb45eb660d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow1.png using Guid(5cce5d5f50ff110a1af23cb45eb660d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '055ef704337b6d7ad1a9acf65cbe5254') in 0.006351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow_dark5.png
+  artifactKey: Guid(1659a083636539ec68e2d619768dd5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow_dark5.png using Guid(1659a083636539ec68e2d619768dd5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5afe9af3c6d0014f7d224be5f98930d5') in 0.007397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_3_no_shadow.png
+  artifactKey: Guid(81de552a4613e78fa82659cc1cf1fda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_3_no_shadow.png using Guid(81de552a4613e78fa82659cc1cf1fda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e8977bec1c795c60d752fe30f8fd4c37') in 0.005501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow_dark4.png
+  artifactKey: Guid(46f4c95731255be6c8bd7cf6fe787e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow_dark4.png using Guid(46f4c95731255be6c8bd7cf6fe787e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '631af9b3525347ce6285eadf95683b80') in 0.006979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_grass_shadow_dark1.png
+  artifactKey: Guid(820a376836d3f8b71a851bdeb1cabead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_grass_shadow_dark1.png using Guid(820a376836d3f8b71a851bdeb1cabead) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '24658c25f80cdb1571416fa2beff8bc5') in 0.005906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow_dark2.png
+  artifactKey: Guid(049cc2cca960322bca14a5537a7eaf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow_dark2.png using Guid(049cc2cca960322bca14a5537a7eaf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4bc313c3938e34cafc6032e3b26978f7') in 0.004759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_4.png
+  artifactKey: Guid(fae1fe7872ae31e8d9845f9e5b366ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_4.png using Guid(fae1fe7872ae31e8d9845f9e5b366ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7d15bdd953bd93e9941687aad4ffaef3') in 0.004236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_2_no_shadow.png
+  artifactKey: Guid(451edc90e6bf811c59d52311351b7dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_2_no_shadow.png using Guid(451edc90e6bf811c59d52311351b7dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '46924e736e83d2f2cdf0e51d407e93f8') in 0.006128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_2_no_shadow.png
+  artifactKey: Guid(1eb266f37bee89bbfb534b10a616bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_2_no_shadow.png using Guid(1eb266f37bee89bbfb534b10a616bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '94e5fae1ab39331cbd44c5f6dfda4185') in 0.005807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.560731 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_3.png
+  artifactKey: Guid(4eac1c35aeaed7a368409f130098390d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_3.png using Guid(4eac1c35aeaed7a368409f130098390d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '544ed897f47a7660b8b10efdd1d97168') in 0.005290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_5_no_shadow.png
+  artifactKey: Guid(6dfd38077ba2793adbde7bce70e04ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_5_no_shadow.png using Guid(6dfd38077ba2793adbde7bce70e04ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6b993ae5a066e1c3a14e39175181bef1') in 0.004324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_grass_shadow1.png
+  artifactKey: Guid(24d17f169514f2b748592a8212239170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_grass_shadow1.png using Guid(24d17f169514f2b748592a8212239170) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f3993532f07cf85ad6505321a038bdb1') in 0.003937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_grass_shadow4.png
+  artifactKey: Guid(c4c24e053802606d682a0f31c4c079a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_grass_shadow4.png using Guid(c4c24e053802606d682a0f31c4c079a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e64f627bf3b4b43cd264d2a7f92e40ab') in 0.003133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_grass_shadow_dark3.png
+  artifactKey: Guid(91a251e99bfb47df2a24b4c61728a3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_grass_shadow_dark3.png using Guid(91a251e99bfb47df2a24b4c61728a3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a5c014dd223f996565a25aea590b78c2') in 0.002896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_grass_shadow_dark5.png
+  artifactKey: Guid(d0152917816adca5ba08e0734b5059db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_grass_shadow_dark5.png using Guid(d0152917816adca5ba08e0734b5059db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9ef831591f47af942079269370fa7921') in 0.004940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_5.png
+  artifactKey: Guid(befa21c3d445569f48c9d8322ee5749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_5.png using Guid(befa21c3d445569f48c9d8322ee5749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f3e94d3a0646ac35dee18631a2e3d2ca') in 0.003520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_grass_shadow5.png
+  artifactKey: Guid(e15c06b69c2f58c8d8795fa137d02a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_grass_shadow5.png using Guid(e15c06b69c2f58c8d8795fa137d02a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ddbb9241bc414c497a8e3522f5480648') in 0.003190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_grass_shadow_dark1.png
+  artifactKey: Guid(c476785df84d7367bb86cc0c44c2da86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_grass_shadow_dark1.png using Guid(c476785df84d7367bb86cc0c44c2da86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '02a7933d167d473476bb0b71955fbf97') in 0.002923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.842838 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_2.png
+  artifactKey: Guid(7af3808f9541c7dc9b4307bf34b0b032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_2.png using Guid(7af3808f9541c7dc9b4307bf34b0b032) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'af5c4a604d7da7c5fd48f7094d081b16') in 0.007432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_4.png
+  artifactKey: Guid(e83784c1785e53219aa6aa7c0ac96443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_4.png using Guid(e83784c1785e53219aa6aa7c0ac96443) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e96abe9cd4d984ea894e5295cd3d6393') in 0.009511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_grass_shadow1.png
+  artifactKey: Guid(a7bf4fb8754e30b13ab05cdb1df64c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_grass_shadow1.png using Guid(a7bf4fb8754e30b13ab05cdb1df64c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '998db1089c27d36ea1f9f2d71db2ce24') in 0.005365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_1.png
+  artifactKey: Guid(41ee27097b0d1619a886fb779ec4af56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_1.png using Guid(41ee27097b0d1619a886fb779ec4af56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '63d03d968e7c8b2c011923c5750a1c77') in 0.007466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_water_shadow4.png
+  artifactKey: Guid(444a6690eab372dc0b96d2becf132a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_water_shadow4.png using Guid(444a6690eab372dc0b96d2becf132a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ef37463a7e90bfbee9f7e61a28d7f7fd') in 0.008661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_5_no_shadow.png
+  artifactKey: Guid(315a9568a39bea5e89c4204bd4faec0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_5_no_shadow.png using Guid(315a9568a39bea5e89c4204bd4faec0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '14875f01f6886be4c18544f9593eb894') in 0.008885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_grass_shadow_dark1.png
+  artifactKey: Guid(cce8e83ce7caaa51d979962b4ad8c238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_grass_shadow_dark1.png using Guid(cce8e83ce7caaa51d979962b4ad8c238) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '284fb2cce25c925f1c039dbbea72e4a2') in 0.013823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_3.png
+  artifactKey: Guid(f78dcea458c8c2607892c8b11bf41f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_3.png using Guid(f78dcea458c8c2607892c8b11bf41f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '80cb8c0a217bd5e410c5210c47d59dcf') in 0.009106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.084623 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_water_shadow_dark4.png
+  artifactKey: Guid(23d6a2806594b1f0cab786f04af3c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_water_shadow_dark4.png using Guid(23d6a2806594b1f0cab786f04af3c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '09419fe3fd07e89d474bdbf50273a658') in 0.004847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_ground_shadow4.png
+  artifactKey: Guid(add429856a24710f3b901ddf39bc1865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_ground_shadow4.png using Guid(add429856a24710f3b901ddf39bc1865) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '48923ba5f9a165e5e5057c73ebf9ee09') in 0.010427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_3.png
+  artifactKey: Guid(6188e73e2ac8b234cb9cc5836f627aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_3.png using Guid(6188e73e2ac8b234cb9cc5836f627aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a517ddbfe8a2b179c8fe09cdb5a8902a') in 0.007492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_ground_shadow5.png
+  artifactKey: Guid(400a7bc9643cff6dbb6d413a95c419bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_ground_shadow5.png using Guid(400a7bc9643cff6dbb6d413a95c419bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f58d0bc77d41d75cbe014df2e1281960') in 0.008389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_5_no_shadow.png
+  artifactKey: Guid(809558cfa29138207b00b3e54d63a853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_5_no_shadow.png using Guid(809558cfa29138207b00b3e54d63a853) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '05150786e4b0cb0c9e0bb94164a5f97e') in 0.006066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.701076 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_ground_shadow_dark2.png
+  artifactKey: Guid(8ad9d276ea8ac06c3b16627525895a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_ground_shadow_dark2.png using Guid(8ad9d276ea8ac06c3b16627525895a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7967dca2c67cf838ec0c9d104f3e923f') in 0.006174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rokc3_snow_shadow2.png
+  artifactKey: Guid(b20deb6e70ceeebe8adf10968b09067c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rokc3_snow_shadow2.png using Guid(b20deb6e70ceeebe8adf10968b09067c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '93a75fdeeab6db0401c98c03f1007bd6') in 0.003550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rokc3_snow_shadow1.png
+  artifactKey: Guid(45e0b5a368d413783b9f6a5bf5755740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rokc3_snow_shadow1.png using Guid(45e0b5a368d413783b9f6a5bf5755740) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e83b44df2af958738e9782e2abaef718') in 0.003558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rokc3_snow_shadow_dark3.png
+  artifactKey: Guid(3f3fb12440c8c70a2b30e8f6dce87f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rokc3_snow_shadow_dark3.png using Guid(3f3fb12440c8c70a2b30e8f6dce87f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '838ee61ca1abea9b5ee5aafcfa7b0db3') in 0.002967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 37.742937 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_grass_shadow_dark5.png
+  artifactKey: Guid(ad8cd9db396a624338a8e6299a53af3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_grass_shadow_dark5.png using Guid(ad8cd9db396a624338a8e6299a53af3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '352307cc1fac3f28e938e7742f5d92e6') in 0.051492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_2.png
+  artifactKey: Guid(6ae2edc5d5927e58d8c7b7e72fda0966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_2.png using Guid(6ae2edc5d5927e58d8c7b7e72fda0966) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ccd418ba24f4cd804505060d95787792') in 0.011910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_ground_shadow4.png
+  artifactKey: Guid(add429856a24710f3b901ddf39bc1865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_ground_shadow4.png using Guid(add429856a24710f3b901ddf39bc1865) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f427ca8775f2aba0e3fdff77146018a5') in 0.013106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_3_no_shadow.png
+  artifactKey: Guid(09042ff2f49a8dd42a3706738be356eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_3_no_shadow.png using Guid(09042ff2f49a8dd42a3706738be356eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4f3afeb08fa434b8de6cbc15026778f3') in 0.017885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_ground_shadow3.png
+  artifactKey: Guid(6c9658eb74117a09986dd73ecf6cccdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_ground_shadow3.png using Guid(6c9658eb74117a09986dd73ecf6cccdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'afee632d77635296c419a7b11caf5fc3') in 0.021854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_ground_shadow1.png
+  artifactKey: Guid(4746113e57b7149f294efff7f2147ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_ground_shadow1.png using Guid(4746113e57b7149f294efff7f2147ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd36fecf355beccf82502cf4a05be190d') in 0.012974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_2.png
+  artifactKey: Guid(e9481d4745e2b0a83a47d0e57043bb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_2.png using Guid(e9481d4745e2b0a83a47d0e57043bb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2876261b0ad9dcd2dfb580d88355f69c') in 0.021191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_water_shadow_dark1.png
+  artifactKey: Guid(68d600407a47238db9a0050bbf757582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_water_shadow_dark1.png using Guid(68d600407a47238db9a0050bbf757582) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f0a41a4b2ea6ecf626570a1f4349b321') in 0.016006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_water_shadow_dark4.png
+  artifactKey: Guid(23d6a2806594b1f0cab786f04af3c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_water_shadow_dark4.png using Guid(23d6a2806594b1f0cab786f04af3c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a8433d4acf8f97fb5823ea81f7aabcf9') in 0.015459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rokc3_snow_shadow_dark2.png
+  artifactKey: Guid(1206e9bc642c79c5f9e5dc5adeb0cba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rokc3_snow_shadow_dark2.png using Guid(1206e9bc642c79c5f9e5dc5adeb0cba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8ed6c9d742ace7c5c6d81d3f62a9288d') in 0.005407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_2_no_shadow.png
+  artifactKey: Guid(ad8b6b1963d5c124ab1918771488a27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_2_no_shadow.png using Guid(ad8b6b1963d5c124ab1918771488a27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3860b2e168e3e379f4e54019a29d361a') in 0.004184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rokc3_snow_shadow_dark1.png
+  artifactKey: Guid(fd89106813da7fa2fbcc4cfd4afc3d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rokc3_snow_shadow_dark1.png using Guid(fd89106813da7fa2fbcc4cfd4afc3d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '39df615d1a5f7ae8993cd292f2d37d4d') in 0.007040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_water_shadow_dark5.png
+  artifactKey: Guid(24c9452b7a220d76aa0892b243b2013a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_water_shadow_dark5.png using Guid(24c9452b7a220d76aa0892b243b2013a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9d8334276a009b6782f817f17dfb1614') in 0.004621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_5_no_shadow.png
+  artifactKey: Guid(809558cfa29138207b00b3e54d63a853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_5_no_shadow.png using Guid(809558cfa29138207b00b3e54d63a853) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ba55d91efca8dc0fc285c2fd3a02ff39') in 0.003756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 17.482958 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_1_no_shadow.png
+  artifactKey: Guid(1b62b900a852d6c5c836425179b3f712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_1_no_shadow.png using Guid(1b62b900a852d6c5c836425179b3f712) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dda0fa838d1bdf4d02d3505d5b1c1767') in 0.005868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_grass_shadow3.png
+  artifactKey: Guid(19ff0f18feedab1b99479786f4b16d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_grass_shadow3.png using Guid(19ff0f18feedab1b99479786f4b16d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f59c0434c3e3ac9a156b8d285cbaf7f4') in 0.015499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_grass_shadow_dark3.png
+  artifactKey: Guid(ff1e1754c61bd716f93aad6fcba91e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_grass_shadow_dark3.png using Guid(ff1e1754c61bd716f93aad6fcba91e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '89606adff96f5aa16fe4c8450be7d518') in 0.006319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_5.png
+  artifactKey: Guid(829b0034a7847d9d38c0b9988dd86d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_5.png using Guid(829b0034a7847d9d38c0b9988dd86d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9e40f3c79911f70d99bc5154d81835a6') in 0.007565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.016697 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow_dark3.png
+  artifactKey: Guid(c8f9246e5e90d73feb70e417dee10d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow_dark3.png using Guid(c8f9246e5e90d73feb70e417dee10d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f408e2cb0dff6c9c6caceb240982fc25') in 0.005883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock3_4_no_shadow.png
+  artifactKey: Guid(c40ff406b6eb483e79b1dacec5812e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock3_4_no_shadow.png using Guid(c40ff406b6eb483e79b1dacec5812e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7e9ab6523cd769e917231c8e3ce83592') in 0.004811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_grass_shadow_dark3.png
+  artifactKey: Guid(0665783f457f46317abfe8d1b16c7d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_grass_shadow_dark3.png using Guid(0665783f457f46317abfe8d1b16c7d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f3cf518232452248d1f2fa39fddce55f') in 0.006127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_grass_shadow1.png
+  artifactKey: Guid(24d17f169514f2b748592a8212239170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_grass_shadow1.png using Guid(24d17f169514f2b748592a8212239170) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6ec2eb70b0a8fff65453e13647bca176') in 0.005134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_grass_shadow4.png
+  artifactKey: Guid(c4c24e053802606d682a0f31c4c079a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_grass_shadow4.png using Guid(c4c24e053802606d682a0f31c4c079a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8f1cfe22f9160a3ff24026f4db0107d2') in 0.007633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_grass_shadow_dark4.png
+  artifactKey: Guid(75aba2a311430ce0da7abf4677251592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_grass_shadow_dark4.png using Guid(75aba2a311430ce0da7abf4677251592) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '97dc402faf8ce2bf135f59cd1fad64ab') in 0.007922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock3_5.png
+  artifactKey: Guid(c94503797f7d18153bd0675d9bfcecd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock3_5.png using Guid(c94503797f7d18153bd0675d9bfcecd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cad6b77873ede2bb8cfe35a3a255d808') in 0.007690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_5.png
+  artifactKey: Guid(befa21c3d445569f48c9d8322ee5749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_5.png using Guid(befa21c3d445569f48c9d8322ee5749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2b1c56aae7a3921387c380bbbf245f91') in 0.006742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_4.png
+  artifactKey: Guid(4049d54a7a69de7d1b8a996c5cccd802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_4.png using Guid(4049d54a7a69de7d1b8a996c5cccd802) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '24ee2ee7ef9ae074483e23f35e18259f') in 0.005796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_4_no_shadow.png
+  artifactKey: Guid(46188386a6a7bd3d0889808d02c8da69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_4_no_shadow.png using Guid(46188386a6a7bd3d0889808d02c8da69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9c03f032022b0117d051e6f8aa2b0507') in 0.008359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_3_no_shadow.png
+  artifactKey: Guid(c1fe85d87ee67a8518a8581a83cc21de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_3_no_shadow.png using Guid(c1fe85d87ee67a8518a8581a83cc21de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '57308ad27b54bd3a602e80b2533835c3') in 0.006873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_1.png
+  artifactKey: Guid(e7408602f93f8022f93d4517d7227788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_1.png using Guid(e7408602f93f8022f93d4517d7227788) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b0d3c8d08427b58ea0a4eab764a3db9b') in 0.006450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_2_no_shadow.png
+  artifactKey: Guid(f839168f987b964258e4bf1d978c8c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_2_no_shadow.png using Guid(f839168f987b964258e4bf1d978c8c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '452c07b71d77a3b0344d32d655d2439a') in 0.009694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.133022 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow_dark5.png
+  artifactKey: Guid(1659a083636539ec68e2d619768dd5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow_dark5.png using Guid(1659a083636539ec68e2d619768dd5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '120c1b27c890a6d7f5d0604d7352aa1f') in 0.004105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow_dark1.png
+  artifactKey: Guid(8cc2966c54797cd5d8c7951efa816fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow_dark1.png using Guid(8cc2966c54797cd5d8c7951efa816fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a7776dcc9d0bb13c06f3f5eaa2a8cf50') in 0.007188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_5.png
+  artifactKey: Guid(a900f206b46f417f18ae52dbf4c5338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_5.png using Guid(a900f206b46f417f18ae52dbf4c5338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1e260b9326894ee6c9fdad7951426a1a') in 0.005089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_2.png
+  artifactKey: Guid(6695d925208aa3151a257008f1408878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_2.png using Guid(6695d925208aa3151a257008f1408878) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3d81fe2b33fe0ed71fd96237dd9e38fb') in 0.003866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow5.png
+  artifactKey: Guid(801fae0a0ab41ef49bdfbf7485d522fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow5.png using Guid(801fae0a0ab41ef49bdfbf7485d522fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '71b9eef55c8413301b44206552ccd522') in 0.004553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow_dark3.png
+  artifactKey: Guid(19e463f9b3c9b85378ee932d87cec103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow_dark3.png using Guid(19e463f9b3c9b85378ee932d87cec103) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8041c39988c497cd89e9d107f81aae53') in 0.005844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow1.png
+  artifactKey: Guid(5cce5d5f50ff110a1af23cb45eb660d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow1.png using Guid(5cce5d5f50ff110a1af23cb45eb660d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '682f282c27fe9331b6459934b370b7fe') in 0.003850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_1_no_shadow.png
+  artifactKey: Guid(ce5a2eab86f1f5bf89cdc07b0fe4ffdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_1_no_shadow.png using Guid(ce5a2eab86f1f5bf89cdc07b0fe4ffdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd9889b79e937bba59d61361e4e9a40c0') in 0.005970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_2.png
+  artifactKey: Guid(59a6602350e2d61ac94aed520107e980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_2.png using Guid(59a6602350e2d61ac94aed520107e980) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '634df3b8e8bcba8d6c4cac6e13e733be') in 0.004866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow2.png
+  artifactKey: Guid(44d0fe7db692928f8afa5caa610a2241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow2.png using Guid(44d0fe7db692928f8afa5caa610a2241) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f02fe94de6663f446c024002fe672880') in 0.004298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 48.048652 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_grass_shadow_dark4.png
+  artifactKey: Guid(66be55b71b3cf27f0944ec4df4017496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_grass_shadow_dark4.png using Guid(66be55b71b3cf27f0944ec4df4017496) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f811e99d528ab5cd0a4aae46f5ea37d0') in 0.011621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_2.png
+  artifactKey: Guid(6ae2edc5d5927e58d8c7b7e72fda0966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_2.png using Guid(6ae2edc5d5927e58d8c7b7e72fda0966) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ce29b06d3ad555959401eadd32900d42') in 0.006877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_ground_shadow4.png
+  artifactKey: Guid(add429856a24710f3b901ddf39bc1865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_ground_shadow4.png using Guid(add429856a24710f3b901ddf39bc1865) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '38abd552cf6d9fa493cbf6392db5a38d') in 0.008540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rokc3_snow_shadow_dark5.png
+  artifactKey: Guid(73f98f1646506cbfab0962e159ade01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rokc3_snow_shadow_dark5.png using Guid(73f98f1646506cbfab0962e159ade01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4f08850addbfb2d48a387574aefa1eaf') in 0.014376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rokc3_snow_shadow4.png
+  artifactKey: Guid(f8bb9e048470ae0ef98749445b798b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rokc3_snow_shadow4.png using Guid(f8bb9e048470ae0ef98749445b798b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '226625c9577b360f50a2397a051f9dd8') in 0.029678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_water_shadow1.png
+  artifactKey: Guid(ddb2f22391712daac8bbb45f6a7af47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_water_shadow1.png using Guid(ddb2f22391712daac8bbb45f6a7af47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8e141871e17801ab3fa8f9b9f4a31f23') in 0.010704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_ground_shadow_dark1.png
+  artifactKey: Guid(fa4670ada596ac2f6badc67f6c3bee68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_ground_shadow_dark1.png using Guid(fa4670ada596ac2f6badc67f6c3bee68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6fb5e5ed38e6ce4310cf25e8278c4bbe') in 0.010855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_water_shadow5.png
+  artifactKey: Guid(8e7eada865744de7597c23efef428b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_water_shadow5.png using Guid(8e7eada865744de7597c23efef428b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '82a763eb9ea27e20c0ac78433342853f') in 0.009323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_5.png
+  artifactKey: Guid(d8b7e075fa4b62c24993f0c9db527787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_5.png using Guid(d8b7e075fa4b62c24993f0c9db527787) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2f0e81f418df4125c8405ae22577ba35') in 0.008186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_5_no_shadow.png
+  artifactKey: Guid(d2be18c5edfab1540bfff30a74c74a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_5_no_shadow.png using Guid(d2be18c5edfab1540bfff30a74c74a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1529be68c17a3aecdfe0040c3802cec2') in 0.007577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_ground_shadow_dark2.png
+  artifactKey: Guid(8ad9d276ea8ac06c3b16627525895a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock8_ground_shadow_dark2.png using Guid(8ad9d276ea8ac06c3b16627525895a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '11f49b89f22454783fde3ee18d8b7969') in 0.011839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_3.png
+  artifactKey: Guid(f78dcea458c8c2607892c8b11bf41f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_3.png using Guid(f78dcea458c8c2607892c8b11bf41f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '60d018ff6a00b9bf81fab2b9dcbb320f') in 0.014748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rokc3_snow_shadow_dark4.png
+  artifactKey: Guid(bef7ee86e52c6bc29a7ca3335a6a2fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rokc3_snow_shadow_dark4.png using Guid(bef7ee86e52c6bc29a7ca3335a6a2fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ae31540104bf6d74c49e9c315eb655b2') in 0.014181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_water_shadow3.png
+  artifactKey: Guid(6b1ed90fdd3fb1b1d9f84528e7769e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock7_water_shadow3.png using Guid(6b1ed90fdd3fb1b1d9f84528e7769e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5c8d8826f097710a2ccc32c34009d786') in 0.012548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 36.117213 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_grass_shadow_dark5.png
+  artifactKey: Guid(d0152917816adca5ba08e0734b5059db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_grass_shadow_dark5.png using Guid(d0152917816adca5ba08e0734b5059db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3b4058034aba51d58aadee8837115430') in 0.006541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_2_no_shadow.png
+  artifactKey: Guid(28df74a9f4ce4b7bcb7df1dcf8c8536b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_2_no_shadow.png using Guid(28df74a9f4ce4b7bcb7df1dcf8c8536b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '30df0e428ea29903366e8783ac452d37') in 0.010171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_3_no_shadow.png
+  artifactKey: Guid(65f9637e666d0c80fafb7b86d0997df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_3_no_shadow.png using Guid(65f9637e666d0c80fafb7b86d0997df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c79134e421f6b7f4364eec7ab5d29de5') in 0.007209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_5.png
+  artifactKey: Guid(829b0034a7847d9d38c0b9988dd86d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock6_5.png using Guid(829b0034a7847d9d38c0b9988dd86d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7515823cc1109fd3d12120c12453245c') in 0.008525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.062600 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_1_no_shadow.png
+  artifactKey: Guid(9fc8c58e66e0dad87acf2ba568957eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_1_no_shadow.png using Guid(9fc8c58e66e0dad87acf2ba568957eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4cb4be8ea370708eeb86b44c62a159f7') in 0.006422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_grass_shadow2.png
+  artifactKey: Guid(d822dded68599ffd8813fc3eaaf998d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_grass_shadow2.png using Guid(d822dded68599ffd8813fc3eaaf998d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '07a3b0ed58d0b62968ac6862327da7de') in 0.010967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_5.png
+  artifactKey: Guid(befa21c3d445569f48c9d8322ee5749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_5.png using Guid(befa21c3d445569f48c9d8322ee5749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '96398da5849910b3a44c80a02e8124ed') in 0.007295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_3_no_shadow.png
+  artifactKey: Guid(c1fe85d87ee67a8518a8581a83cc21de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock5_3_no_shadow.png using Guid(c1fe85d87ee67a8518a8581a83cc21de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c35e28eee0501c916f00a029db8ed881') in 0.009355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.022656 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_2_no_shadow.png
+  artifactKey: Guid(f179f76a0ade2cdeb9d2bcdb69dd08c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_2_no_shadow.png using Guid(f179f76a0ade2cdeb9d2bcdb69dd08c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '40473de257028c6996340b99591d3e78') in 0.006112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_grass_shadow3.png
+  artifactKey: Guid(e6200233569e956f5bb7e105876b7c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_grass_shadow3.png using Guid(e6200233569e956f5bb7e105876b7c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7abd8d0cc8f033e9ed0a420f92ed26ff') in 0.010070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_grass_shadow2.png
+  artifactKey: Guid(1eac0278e31a5b866bddc00c711a6d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_grass_shadow2.png using Guid(1eac0278e31a5b866bddc00c711a6d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f4225d2743e9f5a918f0d6462a1c93f6') in 0.006594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_grass_shadow_dark5.png
+  artifactKey: Guid(80da6c64d7979a94aab74d0fded45b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_grass_shadow_dark5.png using Guid(80da6c64d7979a94aab74d0fded45b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5b4b22ae9cb2f7955be8426a7f5c7557') in 0.007571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011223 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow_dark1.png
+  artifactKey: Guid(8cc2966c54797cd5d8c7951efa816fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow_dark1.png using Guid(8cc2966c54797cd5d8c7951efa816fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '85d34ec1eaeeb9abbeed377ddf2f4487') in 0.005935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock3_4.png
+  artifactKey: Guid(609b2d2842a291a43970c1feb2d62477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock3_4.png using Guid(609b2d2842a291a43970c1feb2d62477) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7f32d942bd0d09d6f3fb41a368ebc5ff') in 0.007786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_1_no_shadow.png
+  artifactKey: Guid(55565360c6dcf8dc5a487f4e70654dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_1_no_shadow.png using Guid(55565360c6dcf8dc5a487f4e70654dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1b55409d0a9804e2c11ba183b02cefc5') in 0.006237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow_dark4.png
+  artifactKey: Guid(46f4c95731255be6c8bd7cf6fe787e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow_dark4.png using Guid(46f4c95731255be6c8bd7cf6fe787e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4aa2eace34e9203139239da599d5b8fb') in 0.005986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.248138 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow_dark3.png
+  artifactKey: Guid(19e463f9b3c9b85378ee932d87cec103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow_dark3.png using Guid(19e463f9b3c9b85378ee932d87cec103) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ad2e11daa021c19d0d51493e33022a42') in 0.005648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow2.png
+  artifactKey: Guid(44d0fe7db692928f8afa5caa610a2241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow2.png using Guid(44d0fe7db692928f8afa5caa610a2241) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c57d72b9f4a4db55cd14213dab3b8063') in 0.008340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_5.png
+  artifactKey: Guid(a900f206b46f417f18ae52dbf4c5338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_5.png using Guid(a900f206b46f417f18ae52dbf4c5338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '670a0beff5e4713d2412ee1e30f2acbb') in 0.006305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_2.png
+  artifactKey: Guid(59a6602350e2d61ac94aed520107e980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_2.png using Guid(59a6602350e2d61ac94aed520107e980) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c3a50030822442d342f92e5a47b3f050') in 0.005849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_4_no_shadow.png
+  artifactKey: Guid(80c0344657090157aa984e6388ff7fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_4_no_shadow.png using Guid(80c0344657090157aa984e6388ff7fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '63ee33cb0db09e466ac3d88c22ab65c8') in 0.008812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow4.png
+  artifactKey: Guid(e5446431ff2b372788dea7fd7d13fa18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow4.png using Guid(e5446431ff2b372788dea7fd7d13fa18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '528c0a76c0bb0cbe61ca8098a92f118f') in 0.005364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_3.png
+  artifactKey: Guid(3736ce8cf81cd74b2b304c411b0e9090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_3.png using Guid(3736ce8cf81cd74b2b304c411b0e9090) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4a2ab5d6fcba098e09dc2979aa88faf1') in 0.005310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_2.png
+  artifactKey: Guid(6695d925208aa3151a257008f1408878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_2.png using Guid(6695d925208aa3151a257008f1408878) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '65777e308d41b090abb584b56d8a515b') in 0.004409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1327.013949 seconds.
+  path: Assets/Sprits/pixel-citizens-for-top-down-tower-defense/1/D_Idle.png
+  artifactKey: Guid(b43477bfd326a391e87324615dc22667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/pixel-citizens-for-top-down-tower-defense/1/D_Idle.png using Guid(b43477bfd326a391e87324615dc22667) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c8abf3052eb9d900e98f8e37e13547e7') in 0.018693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004258 seconds.
+  path: Assets/Sprits/pixel-citizens-for-top-down-tower-defense/1/S_Idle.png
+  artifactKey: Guid(d0e70281bec0f680483fbaffc1253d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/pixel-citizens-for-top-down-tower-defense/1/S_Idle.png using Guid(d0e70281bec0f680483fbaffc1253d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '64ea02f388f3ff7692741f4cefa6ebda') in 0.006109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.015751 seconds.
+  path: Assets/Sprits/pixel-citizens-for-top-down-tower-defense/1/U_Idle.png
+  artifactKey: Guid(d098ae467aa95144da8bff006cb87003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/pixel-citizens-for-top-down-tower-defense/1/U_Idle.png using Guid(d098ae467aa95144da8bff006cb87003) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'baf831f1f602d1139dfffaa0085de4ec') in 0.012282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005153 seconds.
+  path: Assets/Sprits/pixel-citizens-for-top-down-tower-defense/1/S_Walk.png
+  artifactKey: Guid(e6689dc17f87813ec84ea831f0380d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/pixel-citizens-for-top-down-tower-defense/1/S_Walk.png using Guid(e6689dc17f87813ec84ea831f0380d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7778a189bd85a31d5dd1ebe330eb2b3d') in 0.012317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 125, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting

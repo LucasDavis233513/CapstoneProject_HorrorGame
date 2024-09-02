@@ -1,0 +1,1238 @@
+Unity Editor version:    2022.3.44f1 (c3ae09b9f03c)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #1 SMP PREEMPT_DYNAMIC Mon Aug 19 14:09:30 UTC 2024
+Kernel version:          6.10.6-200.fc40.x86_64
+Architecture:            x86_64
+Available memory:        32001 MB
+Using pre-set license
+Pro License: YES
+
+(Unity:21455): Gtk-CRITICAL **: 09:53:41.376: gtk_window_set_default_icon: assertion 'GDK_IS_PIXBUF (icon)' failed
+
+(Unity:21455): GLib-GObject-CRITICAL **: 09:53:41.376: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Desktop is 4920 x 1920 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/home/ldavis/Code/Game Projects/Unity Games/2.5D_Test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+33623
+Successfully changed project path to: /home/ldavis/Code/Game Projects/Unity Games/2.5D_Test
+/home/ldavis/Code/Game Projects/Unity Games/2.5D_Test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [139763349849088]  Target information:
+
+Player connection [139763349849088]  * "[IP] 10.10.1.10 [Port] 0 [Flags] 2 [Guid] 1121170021 [EditorId] 1121170021 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.29) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [139763349849088]  * "[IP] 192.168.1.29 [Port] 0 [Flags] 2 [Guid] 1121170021 [EditorId] 1121170021 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.29) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [139763349849088] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [139763349849088] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 1.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.44f1 (c3ae09b9f03c)
+[Subsystems] Discovering subsystems at path /home/ldavis/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/ldavis/Code/Game Projects/Unity Games/2.5D_Test/Assets
+GLX Extensions: GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_visual_info GLX_EXT_visual_rating GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_swap_control GLX_EXT_swap_control GLX_ARB_create_context GLX_ARB_create_context_profile GLX_ARB_fbconfig_float GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_NV_copy_image GLX_NV_copy_buffer GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_ARB_context_flush_control 
+Renderer: NVIDIA GeForce RTX 3060/PCIe/SSE2
+Vendor:   NVIDIA Corporation
+Version:  4.5.0 NVIDIA 560.35.03
+GLES:     0
+ GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragmen
+t_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoki
+ng_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_A
+RB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_t
+ranspose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters 
+GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod G
+L_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_NV_memory_object_sparse GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_NV_timeline_semaphore GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_
+blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap GL_NV_conservative_raster_pre_snap_triangles GL_NV_conservative_raster_underestimation GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_barycentric GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_sha
+der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_program_multiview GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_primitive_shading_rate GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_obje
+ct GL_NV_shader_subgroup_partitioned GL_NV_shader_texture_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_dirty_tile_map GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_b
+lend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1769562072
+Initialize mono
+Mono path[0] = '/home/ldavis/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Managed'
+Mono path[1] = '/home/ldavis/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/ldavis/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56455
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/ldavis/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/ldavis/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.005055 seconds.
+- Loaded All Assemblies, in  0.268 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.229 seconds
+Domain Reload Profiling: 497ms
+	BeginReloadAssembly (58ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (58ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (106ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (229ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (187ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (131ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.424 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.435 seconds
+Domain Reload Profiling: 859ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (257ms)
+		LoadAssemblies (159ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (114ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (435ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (319ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (45.6 KB). Loaded Objects now: 3574.
+Memory consumption went from 123.5 MB to 123.5 MB.
+Total: 3.496066 ms (FindLiveObjects: 0.245350 ms CreateObjectMapping: 0.206864 ms MarkObjects: 2.900022 ms  DeleteObjects: 0.142928 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7064.719504 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art
+  artifactKey: Guid(280746204a54f8b1491998a660628dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art using Guid(280746204a54f8b1491998a660628dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd9af61166a1f6472f6ad78b9927e8905') in 0.001495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/COUPON.png
+  artifactKey: Guid(25495a6a39ebbb41c94b5f3fbcd359c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/COUPON.png using Guid(25495a6a39ebbb41c94b5f3fbcd359c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a1e782e83a362588a35afd40a7743c07') in 0.047981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE
+  artifactKey: Guid(f57a91c2d156add438a5bfb6c29afd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE using Guid(f57a91c2d156add438a5bfb6c29afd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '283b99ec8391284efbcddb3685551c06') in 0.000313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.297276 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Sword_Attack
+  artifactKey: Guid(7d1cd164486b178db86c9e9635495233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Sword_Attack using Guid(7d1cd164486b178db86c9e9635495233) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eac9b9b76e8c600a3188f0821a961abf') in 0.000665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.087609 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Sword_Death
+  artifactKey: Guid(a397650171db9d20bab9598c753fef72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Sword_Death using Guid(a397650171db9d20bab9598c753fef72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '494ad54fb1729c79a3a53b0c3488f9ff') in 0.000346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.511026 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Sword_Hurt
+  artifactKey: Guid(7f0933f4c547bab53bf443ae005900b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Sword_Hurt using Guid(7f0933f4c547bab53bf443ae005900b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '747f86c0a987bb55d18746b42f1fcfd0') in 0.000309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.466549 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Sword_Idle
+  artifactKey: Guid(e6ba21b0cf9a7a325ac062468609333c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Sword_Idle using Guid(e6ba21b0cf9a7a325ac062468609333c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eaa46329fc658bd048b16b14805f1a1d') in 0.000316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.531146 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Sword_Run
+  artifactKey: Guid(73ee0669a3a49696ebcc507eb613a7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Sword_Run using Guid(73ee0669a3a49696ebcc507eb613a7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c3e08fb4a468461cef92c4bbdcdddad5') in 0.000258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.504343 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Sword_Run_attack
+  artifactKey: Guid(6629c6690aeea70ee97f9964565d653d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Sword_Run_attack using Guid(6629c6690aeea70ee97f9964565d653d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e01cce64d3277003a939ac1e9ab46018') in 0.000333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.484977 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Sword_Walk
+  artifactKey: Guid(0b602dadb25c76d8aa0107519ed755af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Sword_Walk using Guid(0b602dadb25c76d8aa0107519ed755af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e13c4dd749558bcb18a28fcbcae4bd75') in 0.000261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.974350 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Sword_Walk_attack
+  artifactKey: Guid(186a521b8101296709b38fce50af1eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Sword_Walk_attack using Guid(186a521b8101296709b38fce50af1eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4013e580ee3112520d0b767885ae4aab') in 0.000255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.502107 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Unarmed_Death
+  artifactKey: Guid(dadd41c59e72841e49e9b47f682951e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Unarmed_Death using Guid(dadd41c59e72841e49e9b47f682951e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bf2b58bcdd94328eacfb04119306b31d') in 0.000280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.384901 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Unarmed_Hurt
+  artifactKey: Guid(f6946a67a245a641ea8de6d45d5bd75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Unarmed_Hurt using Guid(f6946a67a245a641ea8de6d45d5bd75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0a8912dfd9b1a997fb9f51e3a1520e66') in 0.000261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.315296 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Unarmed_Idle
+  artifactKey: Guid(cd3e134da85107fb48fd36d2900d7912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Unarmed_Idle using Guid(cd3e134da85107fb48fd36d2900d7912) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4b4375e5066d8c5bc21d2efdaeedf777') in 0.000299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.560917 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Unarmed_Idle/Unarmed_Idle_side_right.aseprite
+  artifactKey: Guid(9c24265ce5ed42a98b12aa136caa4c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/ASEPRITE/Unarmed_Idle/Unarmed_Idle_side_right.aseprite using Guid(9c24265ce5ed42a98b12aa136caa4c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '145b76ac8437aedc9f58410b94d63f18') in 0.000705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 75.262499 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files
+  artifactKey: Guid(49b5fba22a89dd0a2bce5e7203a4b195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files using Guid(49b5fba22a89dd0a2bce5e7203a4b195) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'aec8954559f8d43d4f9c6906f220d430') in 0.000272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.055448 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/shadow.png
+  artifactKey: Guid(4d6711185d91906aaa5b5fec7ae25c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/shadow.png using Guid(4d6711185d91906aaa5b5fec7ae25c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e2c6f446c48177e9fc7ca473db775444') in 0.004797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.029798 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_attack3_body.png
+  artifactKey: Guid(b78635f8d84f2db0c9491b114f79c3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_attack3_body.png using Guid(b78635f8d84f2db0c9491b114f79c3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '56b0efa4923f9d4da6d0a26c5b783f66') in 0.004116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.024761 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Death2_sword_back.png
+  artifactKey: Guid(3045f571810f1f010a0fc03331cee331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Death2_sword_back.png using Guid(3045f571810f1f010a0fc03331cee331) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f19d767510c0fb0d1d74b063eec3882c') in 0.003487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Hurt2_sword_back.png
+  artifactKey: Guid(44e7023ed4bf66a37a19fb616b8b0874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Hurt2_sword_back.png using Guid(44e7023ed4bf66a37a19fb616b8b0874) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9382602d4b6597e809e8e3c15a995458') in 0.003221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Idle4_sword_front.png
+  artifactKey: Guid(c260caf7d20df8479b6762aebcfe4314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Idle4_sword_front.png using Guid(c260caf7d20df8479b6762aebcfe4314) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f28ea7dd9bd4d991122ba0b3e2a41ef2') in 0.008160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run4_head.png
+  artifactKey: Guid(b007dc1b7f5302799aa4980cdab0a8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run4_head.png using Guid(b007dc1b7f5302799aa4980cdab0a8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bc66c0e089b6f169d2180201f43a6820') in 0.006640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk_Attack2_sword_back.png
+  artifactKey: Guid(591453fc3caf23cc2a1b33c6a0ef1ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk_Attack2_sword_back.png using Guid(591453fc3caf23cc2a1b33c6a0ef1ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e7156388d567901105b145241e6b3f97') in 0.003732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Death3_head.png
+  artifactKey: Guid(bf20f4ca12a5a556bb2621885e23134b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Death3_head.png using Guid(bf20f4ca12a5a556bb2621885e23134b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '87cd1bbdded33ea474743e2a941494cb') in 0.003477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk_full.png
+  artifactKey: Guid(33b4c97e20d68ce0d8d70e7f5ea4ff51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk_full.png using Guid(33b4c97e20d68ce0d8d70e7f5ea4ff51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c0ce42bd94cfe603b8de444cddff3e61') in 0.003683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk3_body.png
+  artifactKey: Guid(d0b8ecf40cc648299ae361236a3f0348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk3_body.png using Guid(d0b8ecf40cc648299ae361236a3f0348) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'aa5eee312f1e76f22bc829dde01c6aca') in 0.003349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run5_sword_front.png
+  artifactKey: Guid(f577d1416a774028d89b258098c0b169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run5_sword_front.png using Guid(f577d1416a774028d89b258098c0b169) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '46fb9f79a07da275190a7519f82c9146') in 0.004105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Hurt7_red.png
+  artifactKey: Guid(bd5b072cefe9cc9d1a8db49013e69450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Hurt7_red.png using Guid(bd5b072cefe9cc9d1a8db49013e69450) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fb95ff24557480c43054d331acdd12bf') in 0.004546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Hurt_full.png
+  artifactKey: Guid(e2dd0d244e0865fffb1cf88a9ba09f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Hurt_full.png using Guid(e2dd0d244e0865fffb1cf88a9ba09f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '95706f77db04fd78d8904a0b094586dd') in 0.004563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run_Attack3_body.png
+  artifactKey: Guid(3b6b8eb60c79f8d708ddedcdd8832fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run_Attack3_body.png using Guid(3b6b8eb60c79f8d708ddedcdd8832fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5ef7a6d496d397ef016054d5ad14d884') in 0.004682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Death4_sword_front.png
+  artifactKey: Guid(0b20efd4a64635c3a9d5732ee6faab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Death4_sword_front.png using Guid(0b20efd4a64635c3a9d5732ee6faab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '551bf2349bfa0aa107ba187c7cfaace3') in 0.004675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Run3_head.png
+  artifactKey: Guid(9d96952e6829cb8e089744a55712843f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Run3_head.png using Guid(9d96952e6829cb8e089744a55712843f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '53a5194571ca87c1c96b01980f02e00b') in 0.003679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Idle_full.png
+  artifactKey: Guid(614b6f9c4d70f635f83b76488f34ff22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Idle_full.png using Guid(614b6f9c4d70f635f83b76488f34ff22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6e6a9fac6ed9d7f69664c72245ef69da') in 0.003623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run_Attack4_sword_front.png
+  artifactKey: Guid(e4c51849988e1b592a11dafbac060b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run_Attack4_sword_front.png using Guid(e4c51849988e1b592a11dafbac060b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4c4038bd7a370745c7873aeb1488eff7') in 0.004900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_attack5_head.png
+  artifactKey: Guid(c92a3aae9cf3c5a3c84acb412510fed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_attack5_head.png using Guid(c92a3aae9cf3c5a3c84acb412510fed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '24ac23ec7ee9c40c331ea13c9ea59b74') in 0.003585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Hurt4_red.png
+  artifactKey: Guid(4e9e28371fe3b3f6ba5f8ba25eae5d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Hurt4_red.png using Guid(4e9e28371fe3b3f6ba5f8ba25eae5d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '58614283c72b6300f183863203cca65b') in 0.003812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Walk2_body.png
+  artifactKey: Guid(25bb103745f45d538886f5582dfc0e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Walk2_body.png using Guid(25bb103745f45d538886f5582dfc0e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6af23986c9059c8ec617ab409348eda7') in 0.003317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Death4_red.png
+  artifactKey: Guid(246adb066237187d794dd9ccbb17601f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Death4_red.png using Guid(246adb066237187d794dd9ccbb17601f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '506298b8970e2685616c2fb5f857c438') in 0.003504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Death5_head.png
+  artifactKey: Guid(b67cce4b8a59b331891c8bb4e16d5a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Death5_head.png using Guid(b67cce4b8a59b331891c8bb4e16d5a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '174810ad7997f42f38347e450ad50a22') in 0.005354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Hurt_full.png
+  artifactKey: Guid(296ec762a1896009c9438fd744b77909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Hurt_full.png using Guid(296ec762a1896009c9438fd744b77909) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c31f4d59aa2cab53df29b44cd09fdc32') in 0.003610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk_Attack3_body.png
+  artifactKey: Guid(a2d2dbf7cf422042fb93b45d2bc9f40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk_Attack3_body.png using Guid(a2d2dbf7cf422042fb93b45d2bc9f40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd57581ea0fdd1cc8f1048c27b76bb3d2') in 0.003779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk5_head.png
+  artifactKey: Guid(fa8387dd61614b3a4935f3a5806a493d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk5_head.png using Guid(fa8387dd61614b3a4935f3a5806a493d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ad3decd799945b4b15f73a3bfe3148af') in 0.003909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk2_sword_back.png
+  artifactKey: Guid(4e6ef81cd411d153b8a2061a61be8c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk2_sword_back.png using Guid(4e6ef81cd411d153b8a2061a61be8c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '52ab22d64cc5cdd6dfb12f875e6cc7c8') in 0.003755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Idle3_body.png
+  artifactKey: Guid(0651bd79509d0ed0a9f4944db4563903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Idle3_body.png using Guid(0651bd79509d0ed0a9f4944db4563903) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '33cb2760221a5f61747b85e0fee906cd') in 0.005692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_attack4_sword_front.png
+  artifactKey: Guid(8fe283adeafd2d64c92be5bd4bd17f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_attack4_sword_front.png using Guid(8fe283adeafd2d64c92be5bd4bd17f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3e9093566c11cc8469d3d2e0a4d8e693') in 0.003566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Idle2_sword_back.png
+  artifactKey: Guid(5e2840221e77e196487cc4fb61ebec19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Idle2_sword_back.png using Guid(5e2840221e77e196487cc4fb61ebec19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2208ab1e8c69f3628a6f20e9b4309d4d') in 0.003395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk_Attack5_head.png
+  artifactKey: Guid(5931c5c656d5cf1ef93f0d2b700c938e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk_Attack5_head.png using Guid(5931c5c656d5cf1ef93f0d2b700c938e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '71e8f27c4da01a51ff7ac174627ccc3f') in 0.006130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run2_sword_back.png
+  artifactKey: Guid(e828a781046e6e5e1944a465317cde37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run2_sword_back.png using Guid(e828a781046e6e5e1944a465317cde37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7ceba603fe86100d8b6d6dce81aee9c6') in 0.004547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 36.570644 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_attack2_sword_back.png
+  artifactKey: Guid(d9258636498214d83b08e7eed8b3e8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_attack2_sword_back.png using Guid(d9258636498214d83b08e7eed8b3e8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c3e80e32aeef94ddcf5c1e1c46e5676a') in 0.004144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Idle4_sword_front.png
+  artifactKey: Guid(c260caf7d20df8479b6762aebcfe4314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Idle4_sword_front.png using Guid(c260caf7d20df8479b6762aebcfe4314) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4d3328c831e90e077501c4b0aff3315f') in 0.005349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Death7_red.png
+  artifactKey: Guid(e1c80a547d7c9fa819162c701925e6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Death7_red.png using Guid(e1c80a547d7c9fa819162c701925e6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '516562f6c7ea19fbbf2549c9ac27a5e1') in 0.009452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk_full.png
+  artifactKey: Guid(33b4c97e20d68ce0d8d70e7f5ea4ff51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk_full.png using Guid(33b4c97e20d68ce0d8d70e7f5ea4ff51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '060334cbf30d7bdcb77e9758cd2a0353') in 0.004085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Hurt2_body.png
+  artifactKey: Guid(332e97e14276d0eb589a596f40fcd553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Hurt2_body.png using Guid(332e97e14276d0eb589a596f40fcd553) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5f1b0d82c4d3f1df7590f207e2f414f0') in 0.005553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run5_sword_front.png
+  artifactKey: Guid(f577d1416a774028d89b258098c0b169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run5_sword_front.png using Guid(f577d1416a774028d89b258098c0b169) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4649b7f32eceae9120965059c3486f85') in 0.004591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Hurt7_red.png
+  artifactKey: Guid(bd5b072cefe9cc9d1a8db49013e69450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Hurt7_red.png using Guid(bd5b072cefe9cc9d1a8db49013e69450) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '209c8f1ff8f652e961c481f8eb206d93') in 0.006506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Hurt3_head.png
+  artifactKey: Guid(6ebd4e4e914b5013db8e58a66cf2b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Hurt3_head.png using Guid(6ebd4e4e914b5013db8e58a66cf2b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cd7cc1584138ef2ff410958193d2213a') in 0.006522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Death4_sword_front.png
+  artifactKey: Guid(0b20efd4a64635c3a9d5732ee6faab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Death4_sword_front.png using Guid(0b20efd4a64635c3a9d5732ee6faab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '78fe88e9ff4c4ed11017ecb99fcf47ea') in 0.003725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk4_sword_front.png
+  artifactKey: Guid(ec69d9fb19f0ece079b9ead8744e00e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk4_sword_front.png using Guid(ec69d9fb19f0ece079b9ead8744e00e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '770e86e6ec26e456a62776cd306a02bf') in 0.003816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run3_body.png
+  artifactKey: Guid(2155f4fbd50794d69abd729614c5fe47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run3_body.png using Guid(2155f4fbd50794d69abd729614c5fe47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3a256a70381f7558e8bf961feb423b9b') in 0.003632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Idle_full.png
+  artifactKey: Guid(f121be587ce37944c81c51d10cb0cd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Idle_full.png using Guid(f121be587ce37944c81c51d10cb0cd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'db46d5b17ca07fb115f79352c76b769c') in 0.004349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run_Attack2_sword_back.png
+  artifactKey: Guid(a9633496355cb58c4859e5552a4af6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run_Attack2_sword_back.png using Guid(a9633496355cb58c4859e5552a4af6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '13be2de5e1be8c4f671aea2337a5592e') in 0.003912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Death4_red.png
+  artifactKey: Guid(246adb066237187d794dd9ccbb17601f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Death4_red.png using Guid(246adb066237187d794dd9ccbb17601f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6a487de95fb75249bf7baf0036f46590') in 0.005979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Hurt_full.png
+  artifactKey: Guid(296ec762a1896009c9438fd744b77909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Hurt_full.png using Guid(296ec762a1896009c9438fd744b77909) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cd45303c467662365f66134c9ef155b9') in 0.007921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Hurt4_sword_front.png
+  artifactKey: Guid(4c44eb4308dd43681a22a3a39cd866ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Hurt4_sword_front.png using Guid(4c44eb4308dd43681a22a3a39cd866ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '27588e781114a609bd4099de52192624') in 0.004469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk5_head.png
+  artifactKey: Guid(fa8387dd61614b3a4935f3a5806a493d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk5_head.png using Guid(fa8387dd61614b3a4935f3a5806a493d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2859db10c85d39e8391530a6f6850542') in 0.005713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Idle3_body.png
+  artifactKey: Guid(0651bd79509d0ed0a9f4944db4563903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Idle3_body.png using Guid(0651bd79509d0ed0a9f4944db4563903) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4c23bac3f2aaf4cd58fa1f0009e9b58e') in 0.008112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Idle2_sword_back.png
+  artifactKey: Guid(5e2840221e77e196487cc4fb61ebec19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Idle2_sword_back.png using Guid(5e2840221e77e196487cc4fb61ebec19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e6b33ba473b5bbbc206d1537f2a69dd9') in 0.007839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run2_sword_back.png
+  artifactKey: Guid(e828a781046e6e5e1944a465317cde37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run2_sword_back.png using Guid(e828a781046e6e5e1944a465317cde37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f83e3d2f7b6277b96bdf5c19f8d07af6') in 0.005047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 705.599237 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Hurt4_sword_front.png
+  artifactKey: Guid(4c44eb4308dd43681a22a3a39cd866ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Hurt4_sword_front.png using Guid(4c44eb4308dd43681a22a3a39cd866ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ad92403bce55c0844a287ebb97b7660f') in 0.034286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.016104 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Hurt7_red.png
+  artifactKey: Guid(bd5b072cefe9cc9d1a8db49013e69450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Hurt7_red.png using Guid(bd5b072cefe9cc9d1a8db49013e69450) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6f490674942c17f24b45cf0d6737a724') in 0.005111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run_Attack_full.png
+  artifactKey: Guid(57985b59c5c3e13f68b5af09df9f75fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run_Attack_full.png using Guid(57985b59c5c3e13f68b5af09df9f75fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '35f9ad508f3117265e4b0a6e99a9f79f') in 0.005106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Death3_head.png
+  artifactKey: Guid(bf20f4ca12a5a556bb2621885e23134b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Death3_head.png using Guid(bf20f4ca12a5a556bb2621885e23134b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3ebcf2e202eabaef42be27786aec5682') in 0.007623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk_Attack2_sword_back.png
+  artifactKey: Guid(591453fc3caf23cc2a1b33c6a0ef1ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk_Attack2_sword_back.png using Guid(591453fc3caf23cc2a1b33c6a0ef1ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0df8ead20e6815ae15f19a5e56b86153') in 0.009229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk_full.png
+  artifactKey: Guid(33b4c97e20d68ce0d8d70e7f5ea4ff51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk_full.png using Guid(33b4c97e20d68ce0d8d70e7f5ea4ff51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3c8d4a2d1d39802d350a4a71172c71fb') in 0.013476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run5_sword_front.png
+  artifactKey: Guid(f577d1416a774028d89b258098c0b169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run5_sword_front.png using Guid(f577d1416a774028d89b258098c0b169) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9fc816de75975aa5a0c2d3e09bdee3d3') in 0.009602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Hurt_full.png
+  artifactKey: Guid(e2dd0d244e0865fffb1cf88a9ba09f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Hurt_full.png using Guid(e2dd0d244e0865fffb1cf88a9ba09f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'aabff6d90f47f4a8c0e6188d4d557a5f') in 0.008549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run_Attack3_body.png
+  artifactKey: Guid(3b6b8eb60c79f8d708ddedcdd8832fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run_Attack3_body.png using Guid(3b6b8eb60c79f8d708ddedcdd8832fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '77b30c36985f83d3ffcfa5778545d5c4') in 0.012031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run_Attack5_head.png
+  artifactKey: Guid(e3d3d4a0e5962a019a84757c9b6d6f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run_Attack5_head.png using Guid(e3d3d4a0e5962a019a84757c9b6d6f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fc73e34b097c1cf95ca3a0a1f2b57da3') in 0.009428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Run3_head.png
+  artifactKey: Guid(9d96952e6829cb8e089744a55712843f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Run3_head.png using Guid(9d96952e6829cb8e089744a55712843f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '07458e2c35e097d4a8173515c710a547') in 0.008792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Idle_full.png
+  artifactKey: Guid(614b6f9c4d70f635f83b76488f34ff22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Idle_full.png using Guid(614b6f9c4d70f635f83b76488f34ff22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd732a55002bd482ed973227532e555a3') in 0.010974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run3_body.png
+  artifactKey: Guid(2155f4fbd50794d69abd729614c5fe47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run3_body.png using Guid(2155f4fbd50794d69abd729614c5fe47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a825f73f61716027d6b3f96b7149b9f6') in 0.009953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run_Attack4_sword_front.png
+  artifactKey: Guid(e4c51849988e1b592a11dafbac060b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run_Attack4_sword_front.png using Guid(e4c51849988e1b592a11dafbac060b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fd4509cb39f752a0dbfc3784b1d4e22d') in 0.009380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Idle_full.png
+  artifactKey: Guid(f121be587ce37944c81c51d10cb0cd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Idle_full.png using Guid(f121be587ce37944c81c51d10cb0cd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c7423ecedd7fbfc9bba19e099e8ed060') in 0.012340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run4_head.png
+  artifactKey: Guid(b007dc1b7f5302799aa4980cdab0a8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Run4_head.png using Guid(b007dc1b7f5302799aa4980cdab0a8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '51d4ed5e1d94abe5b63e56bf81089a5d') in 0.019003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Walk2_body.png
+  artifactKey: Guid(25bb103745f45d538886f5582dfc0e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Walk2_body.png using Guid(25bb103745f45d538886f5582dfc0e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd4e88c8b264d75f56da1ab35d319eda3') in 0.016371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Walk3_head.png
+  artifactKey: Guid(79e354774c07578eaac5216956f83899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Unarmed_Walk3_head.png using Guid(79e354774c07578eaac5216956f83899) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6c9e1a2572cb43bfd9989efbd98f4449') in 0.007311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk_Attack3_body.png
+  artifactKey: Guid(a2d2dbf7cf422042fb93b45d2bc9f40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk_Attack3_body.png using Guid(a2d2dbf7cf422042fb93b45d2bc9f40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2be4986c2fde68e0229e2877c933204b') in 0.007981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk5_head.png
+  artifactKey: Guid(fa8387dd61614b3a4935f3a5806a493d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk5_head.png using Guid(fa8387dd61614b3a4935f3a5806a493d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0e18a12f451b3dec73e3648f03afab97') in 0.004777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk2_sword_back.png
+  artifactKey: Guid(4e6ef81cd411d153b8a2061a61be8c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk2_sword_back.png using Guid(4e6ef81cd411d153b8a2061a61be8c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2532f218a1d343edf0658a7cdad8080a') in 0.004389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk_Attack4_sword_front.png
+  artifactKey: Guid(ced2d065516cd13688d871fe45631035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk_Attack4_sword_front.png using Guid(ced2d065516cd13688d871fe45631035) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a071da750a579cd0ac5418f2203e5a29') in 0.004556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Idle5_head.png
+  artifactKey: Guid(7ac16be54e1a2b455b48afd86f8665b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Idle5_head.png using Guid(7ac16be54e1a2b455b48afd86f8665b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ecbb630b52572b89cdcb9e436408acd4') in 0.003991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk_Attack5_head.png
+  artifactKey: Guid(5931c5c656d5cf1ef93f0d2b700c938e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Walk_Attack5_head.png using Guid(5931c5c656d5cf1ef93f0d2b700c938e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b92ee18d5287ef66632dae3ca7a1a2de') in 0.004811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.540997 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_attack2_sword_back.png
+  artifactKey: Guid(d9258636498214d83b08e7eed8b3e8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_attack2_sword_back.png using Guid(d9258636498214d83b08e7eed8b3e8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eec5e855717d7b91904d3b39efb83b23') in 0.009428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Death7_red.png
+  artifactKey: Guid(e1c80a547d7c9fa819162c701925e6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Death7_red.png using Guid(e1c80a547d7c9fa819162c701925e6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f3e8004ae3a7dd371b9fb69a63611476') in 0.007737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_attack3_body.png
+  artifactKey: Guid(b78635f8d84f2db0c9491b114f79c3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_attack3_body.png using Guid(b78635f8d84f2db0c9491b114f79c3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'de3bb519b87587f1a0fe1ca7ff7a9c0d') in 0.008477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_attack5_head.png
+  artifactKey: Guid(c92a3aae9cf3c5a3c84acb412510fed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_attack5_head.png using Guid(c92a3aae9cf3c5a3c84acb412510fed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fb5f29056eeed70c72a7d46ba9862ac0') in 0.006790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Death5_head.png
+  artifactKey: Guid(b67cce4b8a59b331891c8bb4e16d5a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Death5_head.png using Guid(b67cce4b8a59b331891c8bb4e16d5a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6f0573e5ecc910f2afa6a0ec37a6e917') in 0.008686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Death_full.png
+  artifactKey: Guid(e39ffeffb6e5c6bbeb860bfa30d56836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/Tiled_files/Sword_Death_full.png using Guid(e39ffeffb6e5c6bbeb860bfa30d56836) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2e4475b694ba84ef140b35ec2ab009ca') in 0.008917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 24.272823 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/PSD/Sword_Hurt1.psd
+  artifactKey: Guid(0080783232ac80802b17f54663668faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/PSD/Sword_Hurt1.psd using Guid(0080783232ac80802b17f54663668faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '71f1d08332ab51489ba72aadfcb4d094') in 0.004821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/PSD/Sword_Walk_Attack1.psd
+  artifactKey: Guid(9b27f49d0d20f4d8b90c483dd5785ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/PSD/Sword_Walk_Attack1.psd using Guid(9b27f49d0d20f4d8b90c483dd5785ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'de1b36613d41287275a5bb73947a8f8a') in 0.003509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/PSD/Sword_Run1.psd
+  artifactKey: Guid(08239ddce0491dbfeb6e75b1096d7524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/PSD/Sword_Run1.psd using Guid(08239ddce0491dbfeb6e75b1096d7524) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '915cf6978e7d5a7ef8a013a6a1219149') in 0.004490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/PSD/Unarmed_Hurt1.psd
+  artifactKey: Guid(7d7a0be6279a0fd1d9d02a73b8d561b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/PSD/Unarmed_Hurt1.psd using Guid(7d7a0be6279a0fd1d9d02a73b8d561b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '59deb17e4af0b74ee2bf5c85b9ff8875') in 0.005205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/PSD/Unarmed_Idle1.psd
+  artifactKey: Guid(121c37084635058169b79bf3f638a96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/PSD/Unarmed_Idle1.psd using Guid(121c37084635058169b79bf3f638a96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '90a071269a7a4e901611d3061651aa26') in 0.003858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/PSD/Unarmed_Walk1.psd
+  artifactKey: Guid(ec14c1daa5ac7f3bdb504e4fb13cfaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/craftpix-net-870940-free-base-4-direction-male-character-pixel-art/PSD/Unarmed_Walk1.psd using Guid(ec14c1daa5ac7f3bdb504e4fb13cfaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd0dd1b99f149e5d8d0f3945546217474') in 0.003344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 125, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
